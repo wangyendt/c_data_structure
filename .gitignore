@@ -23,3 +23,8 @@ stamp-h1
 *.lo
 *.o
 *.pc
+
+.idea/
+.vs/
+cmake-build-debug/
+out/

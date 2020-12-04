@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 3.17)
+project(c_data_structure)
+set(CMAKE_CXX_STANDARD 20)
+include_directories(src)
+include_directories(test)
+#add_executable(c_data_structure test/framework.c test/test-queue.c test/alloc-testing.c src/queue.c)
+add_executable(c_data_structure src/queue.c main.cpp)
